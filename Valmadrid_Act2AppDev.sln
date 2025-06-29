@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valmadrid_Act2AppDev", "Valmadrid_Act2AppDev.csproj", "{4DF35DDB-D51F-48E4-9FA1-0895F89F1E4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendingTracker", "SpendingTracker.csproj", "{4DF35DDB-D51F-48E4-9FA1-0895F89F1E4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
