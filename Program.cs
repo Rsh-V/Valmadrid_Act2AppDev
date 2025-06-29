@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using SpendingTracker.Models;
+
 namespace Valmadrid_Act2AppDev
 {
     public class Program
@@ -8,6 +11,9 @@ namespace Valmadrid_Act2AppDev
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<ExpensesDBContext>(options =>
+                options.UseInMemoryDatabase("ExpensesDB") // Use In-Memory Database for simplicity
+            );
 
             var app = builder.Build();
 
